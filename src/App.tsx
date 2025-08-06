@@ -1,11 +1,12 @@
+import {Route, Routes} from "react-router";
+import ProductList from "./components/ProductList.tsx";
+
 const App = () => {
 
   return (
-      <div>
-          <h1 className="text-3xl font-bold underline">
-              React + Redux
-          </h1>
-      </div>
+          <Routes>
+              <Route path="/" element={<ProductList />} />
+          </Routes>
   )
 }
 
