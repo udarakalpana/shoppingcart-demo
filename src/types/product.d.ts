@@ -7,3 +7,7 @@ export interface IProduct {
 export interface IProductProps {
   product: IProduct;
 }
+
+export interface ICartSliceState {
+  products: IProduct[];
+}
