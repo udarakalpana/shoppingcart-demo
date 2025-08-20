@@ -1,6 +1,6 @@
 import React from "react";
-import type { IProductProps } from "../types/product";
-import { addToCart } from "../store/cartSlice.ts";
+import type { IProductProps } from "../../types/product";
+import { addToCart } from "../../store/cartSlice.ts";
 import { useDispatch } from "react-redux";
 const Product: React.FC<IProductProps> = ({ product }) => {
   const dispatch = useDispatch()

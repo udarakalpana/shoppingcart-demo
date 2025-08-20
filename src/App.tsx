@@ -1,5 +1,5 @@
 import {Route, Routes} from "react-router";
-import ProductList from "./components/ProductList.tsx";
+import ProductList from "./components/product/ProductList.tsx";
 
 const App = () => {
 

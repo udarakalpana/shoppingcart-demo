@@ -1,5 +1,5 @@
 import React from "react";
-import { products } from "../data/products.ts";
+import { products } from "../../data/products.ts";
 import Product from "./Product.tsx";
 
 const ProductList: React.FC = () => {
